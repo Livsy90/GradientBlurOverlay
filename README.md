@@ -26,7 +26,7 @@ Requirements:
  
 Usage
 
-Use the gradientBlurdOverlay view modifier to add a dynamic blurred overlay to any view. For example:
+Use the `materialOverlay` view modifier to add a dynamic blurred `ultraThinMaterial` overlay to any view. For example:
 
 ```
 import SwiftUI
@@ -36,7 +36,7 @@ struct MyView: View {
         Image(.berries)
             .resizable()
             .scaledToFit()
-            .gradientBlurOverlay {
+            .materialOverlay {
                 VStack {
                     Text("Title")
                         .foregroundStyle(.white)
@@ -62,4 +62,35 @@ struct MyView: View {
 }
 ```
 
-The blur adapts dynamically to the height of the overlay, ensuring a seamless gradient effect that matches your content.
+Use the `blurOverlay` view modifier to add a dynamic blur overlay to any view. For example:
+
+```
+struct MyView: View {
+    var body: some View {
+        Image(.lemon)
+            .resizable()
+            .scaledToFit()
+            .blurOverlay {
+                VStack {
+                    Text("Title")
+                        .foregroundStyle(.white)
+                        .font(.largeTitle)
+                        .fontWeight(.semibold)
+                    
+                    Text("Subtitle")
+                        .foregroundStyle(.white)
+                        .font(.subheadline)
+                        .fontWeight(.semibold)
+                }
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .padding()
+            }
+            .clipShape(.rect(cornerRadius: 30))
+            .padding()
+    }
+}
+
+#Preview {
+    MyView()
+}
+```
