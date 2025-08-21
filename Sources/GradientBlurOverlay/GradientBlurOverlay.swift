@@ -1,7 +1,7 @@
 import SwiftUI
 
 public extension View {
-    func gradientBlurdOverlay<Overlay: View>(
+    func gradientBlurOverlay<Overlay: View>(
         @ViewBuilder overlay: @escaping () -> Overlay
     ) -> some View {
         modifier(BlurredOverlay(overlay: overlay))
