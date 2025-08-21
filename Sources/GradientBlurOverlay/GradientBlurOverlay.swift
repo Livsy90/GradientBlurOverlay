@@ -1,7 +1,7 @@
 import SwiftUI
 
 public extension View {
-    func bottomBlurredOverlay<Overlay: View>(
+    func gradientBlurdOverlay<Overlay: View>(
         @ViewBuilder overlay: @escaping () -> Overlay
     ) -> some View {
         modifier(BlurredOverlay(overlay: overlay))
@@ -22,7 +22,15 @@ private struct BlurredOverlay<Overlay: View>: ViewModifier {
                     LinearGradient(
                         colors: [
                             .clear,
+                            .black.opacity(0.1),
+                            .black.opacity(0.2),
+                            .black.opacity(0.3),
+                            .black.opacity(0.4),
+                            .black.opacity(0.5),
+                            .black.opacity(0.6),
                             .black.opacity(0.7),
+                            .black.opacity(0.8),
+                            .black.opacity(0.9),
                             .black,
                             .black
                         ],
