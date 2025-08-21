@@ -94,5 +94,6 @@ struct MyView: View {
     MyView()
 }
 ```
-![alt text]([http://url/to/img.png](https://github.com/Livsy90/GradientBlurOverlay/blob/main/Screenshot%202025-08-21%20at%2019.43.02.png))
-https://github.com/Livsy90/GradientBlurOverlay/blob/main/Screenshot%202025-08-21%20at%2019.43.18.png
+![screenshot](https://github.com/Livsy90/GradientBlurOverlay/blob/main/Screenshot%202025-08-21%20at%2019.43.02.png)
+
+![screenshot](https://github.com/Livsy90/GradientBlurOverlay/blob/main/Screenshot%202025-08-21%20at%2019.43.18.png)
