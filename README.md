@@ -20,11 +20,10 @@ https://github.com/Livsy90/GradientBlurOverlay
 import GradientBlurOverlay
 ```
 
-Requirements
-	•	iOS 18.0+ (uses onGeometryChange) or macOS 15.0+
-	•	Xcode 16+
-	•	Swift 5.10+ and SwiftUI 6
+Requirements:
 
+	•	iOS 16.0+ 
+ 
 Usage
 
 Use the gradientBlurdOverlay view modifier to add a dynamic blurred overlay to any view. For example:
