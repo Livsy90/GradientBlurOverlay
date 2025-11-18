@@ -2,6 +2,10 @@
 
 Adds a bottom blurred overlay with a smooth gradient transition for any SwiftUI view.
 
+![screenshot](https://github.com/Livsy90/GradientBlurOverlay/blob/main/Screenshot%202025-08-21%20at%2019.43.02.png)
+
+![screenshot](https://github.com/Livsy90/GradientBlurOverlay/blob/main/Screenshot%202025-08-21%20at%2019.43.18.png)
+
 ## Installation
 
 ### Using Swift Package Manager (recommended)
@@ -94,6 +98,3 @@ struct MyView: View {
     MyView()
 }
 ```
-![screenshot](https://github.com/Livsy90/GradientBlurOverlay/blob/main/Screenshot%202025-08-21%20at%2019.43.02.png)
-
-![screenshot](https://github.com/Livsy90/GradientBlurOverlay/blob/main/Screenshot%202025-08-21%20at%2019.43.18.png)
