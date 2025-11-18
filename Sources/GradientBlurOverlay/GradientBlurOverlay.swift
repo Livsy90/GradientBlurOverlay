@@ -1,3 +1,5 @@
+import SwiftUI
+
 public extension View {
     func materialOverlay<Overlay: View>(
         @ViewBuilder overlay: @escaping () -> Overlay
